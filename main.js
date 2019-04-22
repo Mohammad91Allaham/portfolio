@@ -4,7 +4,7 @@ $(document).ready(function(){
         $('.top-nav').toggleClass('open');
     });
     $('.top-nav .nav-link').on('click' , function(){
-        $('menue-toggler').removeClass('open');
+        $('.menue-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
     $('nav a[href*="#"]').on('click' , function(){
